@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Modal</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="main" id="main">
+      <h1>Modal Box in Pure CSS</h1>
+      <button onclick="openmenu()" id="clickme">Click Me</button>      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugit autem. Ducimus dolor explicabo porro, perspiciatis, adipisci officia placeat vero dolore consectetur quisquam deleniti, nihil iure laboriosam at aperiam. Ducimus placeat nobis, delectus molestiae accusamus sequi tempore commodi cupiditate quis, sunt suscipit maxime veniam optio autem minima voluptatibus in deleniti architecto quia. Eos voluptatibus quidem illum distinctio mollitia qui eaque, architecto nostrum vero eveniet beatae veniam totam quia porro magni debitis necessitatibus cum tempore? Et repellat fugit magnam non minus fuga. Eligendi, voluptatibus laboriosam? Omnis laudantium obcaecati aut voluptatibus, sapiente id saepe quod iusto culpa provident praesentium nihil dolorem, accusantium minima reprehenderit. Voluptatum numquam ullam delectus eos esse odio cum ipsam sint ipsa officia. Nesciunt placeat enim dolores. Dolorum doloribus nemo ab sunt porro perspiciatis magnam quia! Voluptates molestias tempore repellendus et neque non fugit eveniet voluptate facere voluptas delectus dolor aliquam blanditiis similique explicabo quis, ut sequi corrupti nobis quo numquam nam? Dolor, aperiam. Soluta enim dolorem, officia totam libero quos amet mollitia, eos, labore quod dolore? Rerum officia laudantium nostrum incidunt, voluptates perspiciatis consequuntur. Minus error molestiae cupiditate laboriosam magni consequuntur officia ea quisquam sint est amet, repellendus in, corrupti perferendis, aperiam at sunt quia? Delectus, rerum quisquam alias facere laborum natus quaerat ad repellat perspiciatis repellendus consequuntur doloremque cupiditate velit ullam debitis non earum similique! Atque earum omnis aut minus! Porro nemo illum aspernatur vel, eaque quo similique nihil rem impedit libero quaerat blanditiis maxime fugiat recusandae eos exercitationem, aperiam maiores inventore natus quae? In nisi optio tempore architecto modi doloribus vel asperiores recusandae blanditiis necessitatibus repellat ut error commodi ex voluptatum possimus temporibus magnam quibusdam ipsa exercitationem, repellendus quam. Rem maxime laboriosam deleniti quo hic voluptatem quia ipsam nostrum? Dolore aliquam quibusdam, impedit voluptates corrupti asperiores illum at similique animi mollitia provident adipisci dolores neque incidunt, maiores totam fugiat blanditiis id ipsa eius vel voluptate excepturi? Nesciunt esse eveniet facere dignissimos natus unde, alias similique nulla maiores eum fugiat exercitationem aliquid quam sit veritatis illo deserunt quidem, ipsum commodi voluptatum vitae. Temporibus possimus unde officia. Autem, quibusdam mollitia fugit delectus expedita blanditiis nobis consequatur nihil distinctio reprehenderit in, laboriosam aperiam eum est? Ipsum quod ut in dicta excepturi praesentium nemo quis, consectetur harum rerum enim consequuntur quam veritatis, omnis quas repellat facere commodi dolor. Saepe, similique ea iste architecto enim id asperiores nesciunt dicta cum assumenda sequi laborum aut? Excepturi sit nulla sequi fugiat quam facere voluptate quisquam quas quos consequatur dolore cupiditate, aliquam soluta minima eveniet molestiae libero alias iusto reprehenderit tempore quasi, a ducimus ab odit! Nobis, necessitatibus deleniti consectetur facilis qui animi fugiat harum temporibus ad ipsa molestias, impedit, unde nemo veritatis adipisci odio nisi itaque provident cum officia optio dolorum aspernatur. Voluptas repellat modi dolore pariatur commodi corrupti aliquid dignissimos voluptatibus? Officia necessitatibus laboriosam eveniet dignissimos repudiandae ea. Obcaecati adipisci eos nesciunt ullam illum omnis sequi voluptates error amet porro inventore harum eum aut itaque unde, maxime nulla odit? Tenetur dolorem voluptatem, et nesciunt quo quos enim sapiente exercitationem pariatur impedit odio.</p>
+    </div>
+
+    <div class="second" id="second">
+      <i class="fas fa-times" onclick="closeMenu()"></i>
+      <h2>Modal title</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, placeat, ad. Eveniet repellendus, totam soluta sed perferendis. Eos, nam, excepturi.</p>
+      <button onclick="closeMenu()">OK</button>
+    </div>
+  
+
+   </div>
+
+  
+
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/7c634dfd24.js"></script>
+  <script src="script.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#second').modal('show');
+    });
+  </script>
+</body>
+
+</html>
